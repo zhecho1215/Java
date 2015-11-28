@@ -1,0 +1,17 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        String str = "783";
+        int num = 256;
+        String str1 = "45.6";
+        System.out.println(String.valueOf(str) + 1);//7831
+        System.out.println(Integer.parseInt(str)+1);//784
+        System.out.println(Integer.toString(num)+1);//7831
+        System.out.println(String.valueOf(num) + 1 );
+        //System.out.println(Integer.parseInt(num)); //compilation error
+        //System.out.println(Integer.parseInt(str1)+1);//NumberFormatException
+        //System.out.println(Integer.toString(str)+1)//compilation error
+    }
+}
